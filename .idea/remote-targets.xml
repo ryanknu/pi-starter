@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="ryan@10.4.4.183:22" type="ssh/sftp" uuid="1c0e2199-6faa-4f99-879c-936e196c15a3">
+        <config>
+          <option name="projectRootOnTarget" value="$USER_HOME$/rpi-thing" />
+          <option name="serverName" value="ryan@10.4.4.183:22 password" />
+        </config>
+        <ContributedStateBase type="RsLanguageRuntime">
+          <config />
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
