@@ -493,10 +493,7 @@ fn main() {
     // Render some text
     let font_h = 16.0f32;
     let font_h_int = font_h.ceil() as usize;
-    let font_scale = Scale {
-        x: font_h * 2.0,
-        y: font_h,
-    };
+    let font_scale = Scale::uniform(font_h);
 
     // Get the height
     let v_metrics = font.v_metrics(font_scale);
