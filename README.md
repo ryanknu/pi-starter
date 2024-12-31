@@ -47,6 +47,11 @@ It should run perfectly smoothly on a model 3A+ and a model 4B. I have not teste
 - Read push button switches attached to GPIO
 - Read attached USB webcam data
 
+## Make app start on boot
+
+1. In `raspi-config`, enable TTY autologin from the system options > autologin section.
+2. Add your binary to the bottom of `~/.bashrc`.
+
 ## Development Workflow
 
 OpenSans is not shipped with this repository! Download from [here](http://www.opensans.com/download/open-sans-condensed.zip)
